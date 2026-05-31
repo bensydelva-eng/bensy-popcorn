@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ht">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pòpkòn Gou - Boutik Ofisyèl</title>
+    <style>
+        /* Ti estil CSS rapid pou sit la parèt bèl */
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #fcf8f2; color: #333; }
+        header { background-color: #ffcc00; padding: 20px; text-align: center; }
+        nav { background: #222; text-align: center; padding: 10px; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .kontenè { max-width: 900px; margin: 20px auto; padding: 20px; }
+        .pwodwi-list { display: flex; justify-content: space-around; flex-wrap: wrap; }
+        .pwodwi { background: white; border: 1px solid #ddd; border-radius: 8px; padding: 15px; width: 250px; text-align: center; margin: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .pri { color: #e67e22; font-weight: bold; font-size: 1.2em; }
+        .bouton { background: #ffcc00; padding: 10px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; }
+        footer { background: #222; color: white; text-align: center; padding: 15px; margin-top: 30px; }
+    </style>
+</head>
+<body>
+
+    <!-- Entèt Sit la -->
+    <header>
+        <h1>🍿Bensy Pòpkòn Gou Chache 🍿</h1>
+        <p>Pi bon pòpkòn nan zòn nan, tou cho, tou kroustiyan!</p>
+    </header>
+
+    <!-- Meni Navigasyon an -->
+    <nav>
+        <a href="#lakay">Lakay</a>
+        <a href="#meni">Meni Pwodwi</a>
+        <a href="#kontak">Kòmande / Kontak</a>
+    </nav>
+
+    <div class="kontenè">
+        
+        <!-- Seksyon Prezantasyon -->
+        <section id="lakay">
+            <h2>Byenveni nan Boutik Pòpkòn Nou an</h2>
+            <p>Nou fè pòpkòn nou yo ak bon jan kalite mayi ak engredyan natirèl. Kit ou renmen l sale, dous, oswa ak fwomaj, nou gen sa k ap fè bouch ou koule dlo a!</p>
+        </section>
+
+        <hr>
+
+        <!-- Seksyon Meni Pwodwi -->
+        <section id="meni">
+            <h2>Meni Pòpkòn Nou Yo</h2>
+            <div class="pwodwi-list">
+                
+                <!-- Pwodwi 1 -->
+                <div class="pwodwi">
+                    <h3>🍿 Pòpkòn Sèl ak Bè</h3>
+                    <p>Gou tradisyonèl la, tou cho ak anpil bè fonn.</p>
+                    <p class="pri">50goud / Gwo bwat</p>
+                    <button class="bouton">Mete nan panyen</button>
+                </div>
+
+                <!-- Pwodwi 2 -->
+                <div class="pwodwi">
+                    <h3>🍯 Pòpkòn Karamèl</h3>
+                    <p>Pou moun ki renmen bagay dous kroustiyan.</p>
+                    <p class="pri">75goud / Gwo bwat</p>
+                    <button class="bouton">Mete nan panyen</button>
+                </div>
+
+                <!-- Pwodwi 3 -->
+                <div class="pwodwi">
+                    <h3>🧀 Pòpkòn Fwomaj</h3>
+                    <p>Yon gou espesyal ak bon jan fwomaj cheddar.</p>
+                    <p class="pri">60goud / Gwo bwat</p>
+                    <button class="bouton">Mete nan panyen</button>
+                </div>
+
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Seksyon Kontak ak Kòmand -->
+        <section id="kontak">
+            <h2>Kòmande Kounye a</h2>
+            <p>Ranpli fòmilè sa a pou w fè kòmand ou oswa pou w kontakte nou:</p>
+            
+            <form action="#" method="POST">
+                <p>
+                    <label for="non">Non ou:</label><br>
+                    <input type="text" id="non" name="non" required style="width: 100%; padding: 8px;">
+                </p>
+                <p>
+                    <label for="telefòn">Nimewo Telefòn:</label><br>
+                    <input type="tel" id="telefòn" name="telefòn" required style="width: 100%; padding: 8px;">
+                </p>
+                <p>
+                    <label for="mesaj">Ki gou ou vle ak konbyen bwat?</label><br>
+                    <textarea id="mesaj" name="mesaj" rows="4" style="width: 100%; padding: 8px;" placeholder="Ex: 2 Karamèl ak 1 Fwomaj..."></textarea>
+                </p>
+                <button type="submit" style="background-color: #222; color: white; padding: 10px 20px; border: none; cursor: pointer;">Voye Kòmand la</button>
+            </form>
+        </section>
+
+    </div>
+
+    <!-- Pye Paj la -->
+    <footer>
+        <p>&copy; 2026 Pòpkòn Gou Chache. Tout dwa rezève.</p>
+        <p>Swiv nou sou Instagram: @PopkornGou</p>
+		
+    </footer>
+
+</body>
+</html>
